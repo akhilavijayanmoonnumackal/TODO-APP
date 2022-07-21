@@ -65,12 +65,13 @@ function App() {
 
   return (
     <div className="app">
-      <div className="mainHeading">
-        <h1>ToDo List</h1>
-      </div>
-      <div className="subHeading">
-        <br />
-        <h2>Whoop, it's {day} 🌝 ☕ </h2>
+      <div className='headings'>
+        <div className="mainHeading">
+          <h1 className='gradient-text'>ToDo List</h1>
+        </div>
+        <div className="subHeading">
+          <h2 className='gradient-text2'>Whoop, it's {day} !!! </h2>
+        </div>      
       </div>
       <form onSubmit={inputSubmit}>
             <div className="toDoInput">
@@ -243,7 +244,7 @@ function App() {
             }
           })
          }
-         </div>
+        </div>
     </div>
 )}
 
